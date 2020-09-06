@@ -8,11 +8,11 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class GateWayConfig {
 
-    /**
+/*    *//**
      * 代码形式的路由映射配置，亦可通过配置文件进行映射配置，详情请参见配置文件
      * @param builder
      * @return
-     */
+     *//*
     @Bean
     public RouteLocator coustomRouteLoader(RouteLocatorBuilder builder){
         RouteLocatorBuilder.Builder routes = builder.routes();
@@ -29,5 +29,5 @@ public class GateWayConfig {
         return routes.build();
 
 
-    }
+    }*/
 }
